@@ -57,7 +57,17 @@ calibration and is never imitated.
 - Class 11 — camera geometry ✅ (33/33 audit)
 - Class 12 — 3D vision + motion ✅ (37/37 audit; example-first §B per user request)
 - Class 13 — vision foundation models ✅ (22/22 audit; CLIP/CoCa/LLaVA/Flamingo)
-- Class 14–16 — vision++, generative, exam strategy
+- Class 14 — vision++ with foundational models ✅ (38/38 audit; DINO/Grounding DINO/SAM/Depth Anything)
+- Class 15 — generative computer vision ✅ (32/32 audit; VAE/ELBO/DDPM/Imagen)
+- Class 16 — exam strategy
+
+## Source-quality ledger update (Classes 14–15)
+
+- **14** — `session_14__2_.pdf` is 51 slides, **image-only but upright** (Page
+  rot 0; no rotation needed, unlike Class 13). Transcript full. Confidence high.
+- **15** — `session_15_annotated.pdf` (40 slides) **has a text layer** and ships
+  embedded "EXPLANATION" sections, i.e. it is a *prepared/annotated* deck, not a
+  raw export. Transcript full. Confidence high; formula images still lack text.
 
 ## Verification discipline that has repeatedly paid off
 
