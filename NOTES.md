@@ -61,6 +61,25 @@ calibration and is never imitated.
 - Class 15 — generative computer vision ✅ (32/32 audit; VAE/ELBO/DDPM/Imagen)
 - Class 16 — exam strategy
 
+## Exam-prep docs (built from `session16.pdf`)
+
+- `study-notes/exam-prep/formula-sheet.md` — 28 one-line formulas, ★ priority
+  marks, one micro-example each, explicit "not worth memorising" footer.
+- `study-notes/exam-prep/coding-questions.md` — the 10 easiest high-probability
+  Section-D options, each as a fill-in-the-blank scaffold + full NumPy solution
+  + 2 tests + one trap; 6 one-liner backups; 90-minute drill.
+- `study-notes/exam-prep/python-numpy-help.md` — 60-second lookup ladder
+  (`help` / `__doc__` / `inspect.signature` / `dir` / `np.info`), 20-second
+  docstring reading, 3-line probe, top-30 NumPy table, fallbacks.
+
+**Environment change:** `numpy 2.5.4` is now installed for verification
+(`python3 -m pip install --user numpy`). Note for the exam: **NumPy 2.x removed
+`np.lookfor` and `np.source`**; the help doc documents the replacements.
+
+**Audit:** all 10 coding solutions + 6 backups executed against every quoted
+test (0 failures); all 28 formula examples recomputed from first principles;
+every help command checked on NumPy 2.5.4.
+
 ## Source-quality ledger update (Classes 14–15)
 
 - **14** — `session_14__2_.pdf` is 51 slides, **image-only but upright** (Page

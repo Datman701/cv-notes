@@ -22,10 +22,10 @@ pressure, not a general CV education.
 - Classes 1–7 already studied (mid-term prep) — **do not re-teach anchors,
   R-CNN/Faster R-CNN, or one-stage detector mechanics.**
 - No professor repository, notebooks, or Kaggle starter code exist locally.
-  Section D is therefore written from scratch in stdlib Python.
-- numpy / torch / cv2 are not installed in the build environment. Only stdlib
-  Python 3.14 is available, so Section D problems are pure-Python — which is
-  also closer to the DSA framing in `session16.pdf`.
+  Class guides' Section D is written from scratch in stdlib Python.
+- **numpy 2.5.4 is installed** (added for exam-prep verification). torch / cv2
+  are still absent. The exam-prep coding doc uses **NumPy**, because the real
+  Section D runs in Python + NumPy; the class guides remain pure-Python.
 
 ## Out of scope
 - Classes 1–7 in depth (already covered).
